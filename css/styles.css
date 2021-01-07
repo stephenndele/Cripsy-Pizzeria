@@ -1,0 +1,81 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-hide { 
+    display: none;
+}
+
+.card-hide1 { 
+    display: none;
+}
+
+.card-hide2 { 
+    display: none;
+}
+
+.bg { 
+    background-image: url("../images/backgrounds/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg");
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.button-circle{
+    border-radius: 50%;
+}
+
+#form_name{
+    background-color: transparent;
+    color: white !important;
+}
+#form_email{
+    background-color: transparent;
+    color: white;
+}
+#form_message{
+    background-color: transparent;
+    color: white;
+}
+
+
+
+.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
+    position: relative;
+}
+.work1a,.work2a,.work3a,.work4a,.work5a,.work6a,.work7a,.work8a {
+    display: none;
+    color: white;
+    background-color:rgba(105,105,105);
+    position:absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30%;
+    font-family: 'Delius Swash Caps', cursive;
+    opacity: 0.8;
+    border: 2px solid #fff;
+
+
+}
+/* 
+.carousel-inner > .carousel.item > img {
+    width:640px;
+    height:360px;
+  } */
+
+/* media responsive */
+
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {...}
+@media screen and (min-width: 600px)  {...}
+@media screen and (min-width: 1000px) {...}
+@media screen and (min-width: 1400px) {...}
+
+
+
+
