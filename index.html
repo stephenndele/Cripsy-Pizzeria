@@ -15,17 +15,20 @@
     </title>
 </head>
 <body>
-    <!-- <div class="container-fluid">
+    <div class="container-fluid">
         <div class="card bg-dark text-center text-white">
-            <img src="images/backgrounds/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg" class="card-img" alt="...">
+          
+            <img src="images/backgrounds/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg" class="card-img" alt="..." height= "800px">
             <div class="card-img-overlay">
               <div class="d-flex justify-content-center align-items-center   p-5" style="height: 500px;">
-
-                <img src="images/logo/logo.png" class="img-fluid" alt="">
-          
+                <div class="welcome">
+                  <h1>WELCOME</h1>
+                <h1>The Crispy Crust Pizzeria </h1>
+                </div>
               </div>
-              <h1>WELCOME</h1>
-              <h1>The Crispy Crust Pizzeria </h1>
+              
+
+              
             </br>
           </br>
         </br>
@@ -34,9 +37,9 @@
             
 
           </div> 
-    </div> -->
+    </div>
 
-    <div class="container-fluid  h-30 d-inline-block">
+    <div class="container-fluid d-inline-block mt-3" id="slides">
         <div class="card text-center">
             
             <div class="card-body ">
@@ -52,21 +55,21 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       
-                      <img src="images/pizzas-types/amirali-mirhashemian-w1iMfs6yxuo-unsplash.jpg" class="d-block w-100 " alt="...">
+                      <img src="images/pizzas-types/amirali-mirhashemian-w1iMfs6yxuo-unsplash.jpg" class="d-block  " alt="..." width="100%" height="500px">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>NEAPOLITAN PIZZA</h5>
                         <p>Neapolitan is the original pizza. This delicious pie dates all the way back to 18th century in Naples, Italy. During this time, the poorer citizens of this seaside city frequently purchased food that was cheap and could be eaten quickly. Luckily for them, Neapolitan pizza was affordable and readily available through numerous street vendors.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="images/pizzas-types/inna-podolska-JspLKUauwSI-unsplash.jpg" class="d-block w-100" alt="...">
+                      <img src="images/pizzas-types/inna-podolska-JspLKUauwSI-unsplash.jpg" class="d-block " alt="..." width="100%" height="500px" >
                       <div class="carousel-caption d-none d-md-block">
                         <h5>CHICAGO PIZZA</h5>
                         <p>Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved. Instead of imitating the notoriously thin pie, Ike Sewell had something else in mind. He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes. This original creation led Sewell to create the now famous chain restaurant, Pizzeria Uno.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="images/pizzas-types/louis-hansel-shotsoflouis-I2tgHl69Dco-unsplash.jpg" class="d-block w-100" alt="...">
+                      <img src="images/pizzas-types/louis-hansel-shotsoflouis-I2tgHl69Dco-unsplash.jpg" class="d-block " alt="..." width="100%" height="500px">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>CALIFORNIA PIZZA</h5>
                         <p>California pizza, or gourmet pizza, is known for its unusual ingredients. This pizza got its start back in the late 1970’s when Chef Ed LaDou began experimenting with pizza recipes in the classic Italian restaurant, Prego. He created a pizza with mustard, ricotta, pate, and red pepper, and by chance, served it to Wolfgang Puck. Impressed with LaDou’s innovative pie, Puck invited him to be a head pizza chef at his restaurant. It was here that LaDou came up with over 250 unique pizza recipes that eventually formed the menu of the chain restaurant California Pizza Kitchen.</p>
@@ -96,7 +99,7 @@
     
       <!-- Order P Page -->
 
-      <div class="container-fluid mt-3 text-center">
+      <div class="container-fluid mt-3 text-center" id= "orders">
           <h2>Place your orders here</h2>
           <div class="order row">
             <div class="col-md-6">
@@ -126,23 +129,25 @@
                     <button name="button" type="submit" id="submit" value="Check-Out"
                         onclick="calctotalPrice()">Submit</button>
                 </form>
-            </div>
-
-            <div class="col-md-6">
-              <div id="formlocation">
-                  <h3>For delivery services,enter your location details below</h3>
-                  <form id="delivery">
-                      <label for="name">Name</label>
-                      <input class="form-control" type="text" name="" id="name" required="required">
-                      <label for="location">Location</label>
-                      <input class="form-control" type="text" id="location" placeholder="location...">
-                      <label for="phonenumber">Phone Number</label>
-                      <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
-                      <button type="submit" name="button" id="submit">submit</button>
-                  </form>
               </div>
-          </div>
+              <div class="col-md-6">
+                <div id="formlocation">
+                    <h3>For delivery services,enter  location details below</h3>
+                    <form id="delivery">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text" name="" id="name" required="required">
+                        <label for="location">Location</label>
+                        <input class="form-control" type="text" id="location" placeholder="location...">
+                        <label for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+                        <button type="submit" name="button" id="submit">submit</button>
+                    </form>
+                </div>
+            </div>
       </div>
+      </div>
+      <div class ="container-fluid mt-3 text-center" id="delivery">
+        
       </div>
       
 
@@ -172,8 +177,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                        
                     
                     <div class="row">
                        <div div class="col">
@@ -215,8 +218,7 @@
             </div>
           </footer>
         </div>
-        
-    V<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 

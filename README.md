@@ -1,19 +1,19 @@
-# Delani Studio
-#### This is a  project for bulding an imaginary studio website.
+# The Crispy Crust Pizzeria
+#### This is a  project for bulding a pizza website .
 #### By Stephen Ndele
 ## Description
-The site allows the user to navigate throughout the site and see what Delani studio does and what they stand for. The site allows the user to send in messages and a reception message is issued on sending of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section.
+The site allows the user to navigate throgh the website, select the pizzas of their choice and make orders, and request for delivery if they need to. The site gives back user the total cost for their orders. Users are also able to give feedback and a reception message is issued on sending of the message.
 Feel free to experiment all the features and give feedback. Thank you.
 
 
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
     ```
-    $ git clone https://github.com/stephenndele/delani-studio.git
+    $ git clone https://github.com/stephenndele/Cripsy-Pizzeria.git
     ```
 * Move into the cloned directory
     ```
-    $ cd delani-studio
+    $ cd Cripsy-Pizzeria
     ```
 * Open the project on VS Code studio or any other editor of your choice and liveserver
 ## Known Bugs

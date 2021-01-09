@@ -39,29 +39,19 @@
 }
 
 
-
-.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
-    position: relative;
+#slides{
+    background-position: center;
+    padding-right: 10%;
+    padding-left: 10%;
 }
-.work1a,.work2a,.work3a,.work4a,.work5a,.work6a,.work7a,.work8a {
-    display: none;
-    color: white;
-    background-color:rgba(105,105,105);
-    position:absolute;
-    top: 20px;
-    left: 30px;
-    right: 30px;
-    bottom: 20px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 30%;
-    font-family: 'Delius Swash Caps', cursive;
-    opacity: 0.8;
-    border: 2px solid #fff;
 
-
+#orders, #delivery{
+    background-color: #fc8621;
 }
+.welcome{
+    padding-top:;
+}
+
 /* 
 .carousel-inner > .carousel.item > img {
     width:640px;
