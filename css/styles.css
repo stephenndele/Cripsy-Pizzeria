@@ -45,9 +45,7 @@
 #orders, #delivery{
     background-color: #fc8621;
 }
-.welcome{
-    padding-top:;
-}
+
 .text-1{
     color: white;
     font-size: 20px;
@@ -70,11 +68,7 @@
 
 /* media responsive */
 
-/* Default styles first then media queries */
-@media screen and (min-width: 400px)  {...}
-@media screen and (min-width: 600px)  {...}
-@media screen and (min-width: 1000px) {...}
-@media screen and (min-width: 1400px) {...}
+
 
 
 
