@@ -93,7 +93,7 @@ $(document).ready(function() {
     let name = $("input#form_name").val();
     let email= $("input#form_email").val();
     let message = $("input#form_message").val();
-    let result = ("Hello " + name + " we received your feedback. Thank you for taking your time to tell us about ours services");
+    let result = ("Hello " + name + " we received your feedback. Thank you for taking your time to tell us about ours services. Welcome again");
 
     $("#output").text(result);
 
