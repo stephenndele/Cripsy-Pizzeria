@@ -76,7 +76,7 @@ $(document).ready(function () {
       var number = $("input#number").val();
       var location = $("input#location").val();
 
-      alert("Hello " + name + ". Your order of " + getNumber() + " pizzas has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing the pizzeria Kitchen.");
+      alert("Hello " + name + ". Your order of " + getNumber() + " pizzas has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you for chosing the cripsy pizzeria Kitchen.");
       // $(this).get(0).reset();
       //  event.preventDefault();
   });
