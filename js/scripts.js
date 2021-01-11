@@ -59,7 +59,7 @@ function calctotalPrice(e) {
   var totalPrice = (getSizeCost() + getCrustCost() + mushrooms()) * (getNumber());
   
       console.log(totalPrice);
-  alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +" Kindly fill in delivery details." )
+  alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +" Kindly fill in delivery details on delivery form." )
 
 }
 
